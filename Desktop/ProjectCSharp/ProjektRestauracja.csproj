@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>aspnet-ProjektRestauracja-6e1c9c96-89e0-4943-a0c7-739472a1af9c</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Areas\Identity\Pages\Account\**" />
+	  <Compile Remove="Views\Account\**" />
+	  <Compile Remove="Views\Dishes\**" />
+	  <Compile Remove="Views\Shared\Nowy folder\**" />
+	  <Content Remove="Areas\Identity\Pages\Account\**" />
+	  <Content Remove="Views\Account\**" />
+	  <Content Remove="Views\Dishes\**" />
+	  <Content Remove="Views\Shared\Nowy folder\**" />
+	  <EmbeddedResource Remove="Areas\Identity\Pages\Account\**" />
+	  <EmbeddedResource Remove="Views\Account\**" />
+	  <EmbeddedResource Remove="Views\Dishes\**" />
+	  <EmbeddedResource Remove="Views\Shared\Nowy folder\**" />
+	  <None Remove="Areas\Identity\Pages\Account\**" />
+	  <None Remove="Views\Account\**" />
+	  <None Remove="Views\Dishes\**" />
+	  <None Remove="Views\Shared\Nowy folder\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Data\DbInitializer.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="Views\Account\Login.cshtml">
+	    <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+	    <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+	  </Content>
+	  <Content Include="Views\Account\Register.cshtml">
+	    <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+	    <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+	  </Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.11" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.11" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.11" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.11" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.11" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.11">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+	</ItemGroup>
+
+</Project>

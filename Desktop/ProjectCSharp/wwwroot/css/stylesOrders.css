@@ -1,0 +1,256 @@
+﻿body {
+    background-image: url('/images/background_orders.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.4em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.8em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.1em;
+    color: #444;
+    display: block;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #ecf0f1;
+}
+
+    input[type="text"]:focus,
+    input[type="number"]:focus,
+    input[type="date"]:focus,
+    input[type="time"]:focus,
+    textarea:focus,
+    select:focus {
+        border-color: #3498db;
+        outline: none;
+    }
+
+button, input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    button:hover, input[type="submit"]:hover {
+        background-color: #2980b9;
+    }
+
+    button:focus, input[type="submit"]:focus {
+        outline: none;
+    }
+
+.text-danger {
+    color: red;
+    font-size: 0.9em;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+    table td {
+        padding: 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    table th {
+        background-color: #a361c2;
+        color: rgba(0, 0, 0, 0.15);
+        font-size: 1.3em;
+        font-weight: bold;
+        text-align: left;
+        padding: 15px;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    table tr:hover {
+        background-color: #a361c2;
+    }
+
+    table a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+.reservation-form button,
+.order-form button,
+.form-delete button,
+.btn,
+.btn-order,
+.btn-cancel,
+.logged-in-user a {
+    padding: 14px;
+    background-color: #8b3503;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+    .reservation-form button:hover,
+    .order-form button:hover,
+    .form-delete button:hover,
+    .btn:hover,
+    .btn-order:hover,
+    .btn-cancel:hover,
+    .logged-in-user a:hover {
+        background-color: #bb7338;
+    }
+
+.btn {
+    margin-right: 10px;
+    background-color: #57066b;
+    color: white;
+}
+
+    .btn:hover {
+        background-color: #a361c2;
+    }
+
+.btn-order {
+    background-color: #630c79;
+}
+
+    .btn-order:hover {
+        background-color: #954dbe;
+    }
+
+.btn-cancel {
+    display: inline-block;
+    padding: 12px;
+    background-color: #d32f2f;
+}
+
+    .btn-cancel:hover {
+        background-color: #b71c1c;
+    }
+
+.logged-in-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+    .logged-in-user span {
+        font-size: 1.2em;
+        font-family: 'Playfair Display', serif;
+        color: #4d0e4d;
+    }
+
+    .logged-in-user a {
+        font-size: 1.1em;
+        color: #4d0e4d;
+        text-decoration: none;
+        padding: 8px 16px;
+        background-color: #6c3274;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+        .logged-in-user a:hover {
+            background-color: #b249c0;
+        }
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.6em;
+    }
+
+    .form-group input,
+    .form-group select {
+        font-size: 1em;
+    }
+
+    table th, table td {
+        font-size: 1em;
+    }
+
+    button, input[type="submit"] {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+}

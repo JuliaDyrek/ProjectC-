@@ -1,0 +1,216 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|c:\\users\\julia\\desktop\\projektrestauracja\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|c:\\users\\julia\\desktop\\projektrestauracja\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|c:\\users\\julia\\desktop\\projektrestauracja\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|c:\\users\\julia\\desktop\\projektrestauracja\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|c:\\users\\julia\\desktop\\projektrestauracja\\wwwroot\\css\\styleshome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|solutionrelative:wwwroot\\css\\styleshome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|c:\\users\\julia\\desktop\\projektrestauracja\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|solutionrelative:views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|c:\\users\\julia\\desktop\\projektrestauracja\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|solutionrelative:views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|c:\\users\\julia\\desktop\\projektrestauracja\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|solutionrelative:views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|c:\\users\\julia\\desktop\\projektrestauracja\\wwwroot\\css\\stylesreservations.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|solutionrelative:wwwroot\\css\\stylesreservations.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|c:\\users\\julia\\desktop\\projektrestauracja\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|solutionrelative:views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|c:\\users\\julia\\desktop\\projektrestauracja\\wwwroot\\css\\stylesorders.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|solutionrelative:wwwroot\\css\\stylesorders.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|c:\\users\\julia\\desktop\\projektrestauracja\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{751DED48-9B02-4123-A31D-001A4D2EB819}|ProjektRestauracja.csproj|solutionrelative:views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T17:56:44.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "stylesHome.css",
+              "DocumentMoniker": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\wwwroot\\css\\stylesHome.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\stylesHome.css",
+              "ToolTip": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\wwwroot\\css\\stylesHome.css",
+              "RelativeToolTip": "wwwroot\\css\\stylesHome.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-26T17:40:27.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T17:39:31.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADMAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T17:38:36.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwBsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T17:37:18.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\Views\\Orders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\Views\\Orders\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Delete.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T17:35:36.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\Views\\Orders\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\Views\\Orders\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Edit.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAADwv0EAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T17:34:13.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\Views\\Orders\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Create.cshtml",
+              "ToolTip": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\Views\\Orders\\Create.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Create.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAIwF8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T17:30:14.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "stylesReservations.css",
+              "DocumentMoniker": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\wwwroot\\css\\stylesReservations.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\stylesReservations.css",
+              "ToolTip": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\wwwroot\\css\\stylesReservations.css",
+              "RelativeToolTip": "wwwroot\\css\\stylesReservations.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-26T17:28:00.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T17:27:53.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "stylesOrders.css",
+              "DocumentMoniker": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\wwwroot\\css\\stylesOrders.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\stylesOrders.css",
+              "ToolTip": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\wwwroot\\css\\stylesOrders.css",
+              "RelativeToolTip": "wwwroot\\css\\stylesOrders.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-26T17:26:22.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\Views\\Reservations\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Reservations\\Index.cshtml",
+              "ToolTip": "C:\\Users\\julia\\Desktop\\ProjektRestauracja\\Views\\Reservations\\Index.cshtml",
+              "RelativeToolTip": "Views\\Reservations\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwCUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T17:20:53.173Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

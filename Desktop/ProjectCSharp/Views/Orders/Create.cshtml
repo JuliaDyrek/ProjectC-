@@ -1,0 +1,98 @@
+﻿@model ProjektRestauracja.Models.Order
+
+@{
+    ViewData["Title"] = "Create Order";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Restaurant Order System</title>
+    <link href="~/css/stylesOrders.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h2>@ViewData["Title"]</h2>
+
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="ReservationId" class="control-label">Reservation</label>
+                @if (ViewBag.Reservations != null)
+                {
+                    <select asp-for="ReservationId" class="form-control" asp-items="@(new SelectList(ViewBag.Reservations, "Id", "Id", Model.ReservationId))">
+                        <option value="">Please select a reservation</option>
+                    </select>
+                }
+                else
+                {
+                    <p>No reservations found.</p>
+                }
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DishId" class="control-label">Dish</label>
+                @if (ViewBag.Dishes != null)
+                {
+                    <select asp-for="DishId" class="form-control" id="DishId">
+                        <option value="">Please select a dish</option>
+                        @foreach (var dish in ViewBag.Dishes)
+                        {
+                            <option value="@dish.Id" data-price="@dish.Price" selected=@(dish.Id == Model.DishId ? "selected" : "")>
+                                @dish.Name
+                            </option>
+                        }
+                    </select>
+                }
+                else
+                {
+                    <p>No dishes available.</p>
+                }
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Quantity" class="control-label">Quantity</label>
+                <input asp-for="Quantity" class="form-control" type="number" min="1" value="1" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="TotalPrice" class="control-label">Total Price</label>
+                <input asp-for="TotalPrice" class="form-control" readonly />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+    @section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const dishSelect = document.getElementById("DishId");
+            const quantityInput = document.getElementById("Quantity");
+            const totalPriceInput = document.getElementById("TotalPrice");
+
+            function calculateTotalPrice() {
+                const selectedDish = dishSelect.selectedOptions[0];
+                const price = parseFloat(selectedDish.getAttribute("data-price"));
+                const quantity = parseInt(quantityInput.value);
+
+                if (!isNaN(price) && !isNaN(quantity)) {
+                    totalPriceInput.value = (price * quantity).toFixed(2);
+                } else {
+                    totalPriceInput.value = "";
+                }
+            }
+
+            dishSelect.addEventListener("change", calculateTotalPrice);
+            quantityInput.addEventListener("input", calculateTotalPrice);
+
+            calculateTotalPrice();
+        });
+    </script>
+    }
+</body>
+</html>

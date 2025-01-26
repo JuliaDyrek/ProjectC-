@@ -1,0 +1,96 @@
+﻿@model ProjektRestauracja.Models.Order
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Restaurant Order System</title>
+    <link href="~/css/stylesOrders.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>@ViewData["Title"]</h1>
+
+        <h4>Order</h4>
+        <hr />
+        <div class="row">
+            <div class="col-md-4">
+                <form asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="Id" />
+
+                    <div class="form-group">
+                        <label asp-for="ReservationId" class="control-label"></label>
+                        <select asp-for="ReservationId" class="form-control" asp-items="ViewBag.ReservationId"></select>
+                        <span asp-validation-for="ReservationId" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="DishId" class="control-label"></label>
+                        <select asp-for="DishId" class="form-control" id="DishId">
+                            <option value="">Please select a dish</option>
+                            @foreach (var dish in ViewBag.Dishes)
+                            {
+                                <option value="@dish.Id" data-price="@dish.Price">
+                                    @dish.Name
+                                </option>
+                            }
+                        </select>
+                        <span asp-validation-for="DishId" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Quantity" class="control-label"></label>
+                        <input asp-for="Quantity" class="form-control" type="number" min="1" value="@Model.Quantity" id="Quantity" />
+                        <span asp-validation-for="Quantity" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="TotalPrice" class="control-label">Total Price</label>
+                        <input class="form-control" id="TotalPrice" readonly value="@Model.TotalPrice.ToString("C2")" />
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="Save" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div>
+            <a asp-action="Index" class="btn">Back to List</a>
+        </div>
+    </div>
+    @section Scripts {
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const dishSelect = document.getElementById("DishId");
+                const quantityInput = document.getElementById("Quantity");
+                const totalPriceInput = document.getElementById("TotalPrice");
+
+                function calculateTotalPrice() {
+                    const selectedDish = dishSelect.selectedOptions[0];
+                    const price = parseFloat(selectedDish.getAttribute("data-price"));
+                    const quantity = parseInt(quantityInput.value);
+
+                    if (!isNaN(price) && !isNaN(quantity)) {
+                        totalPriceInput.value = (price * quantity).toFixed(2);
+                    } else {
+                        totalPriceInput.value = "";
+                    }
+                }
+
+                dishSelect.addEventListener("change", calculateTotalPrice);
+                quantityInput.addEventListener("input", calculateTotalPrice);
+
+                calculateTotalPrice();
+            });
+        </script>
+    }
+</body>
+</html>

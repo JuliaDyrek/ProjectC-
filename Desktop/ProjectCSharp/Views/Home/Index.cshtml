@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - My Application</title>
+
+    <link href="~/css/stylesHome.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="home-container">
+        <h1>Welcome to the Restaurant Reservation System</h1>
+        <p>Manage reservations and orders</p>
+
+        <ul class="home-nav">
+            @if (User.Identity.IsAuthenticated)
+            {
+                <li><a href="/Orders">Manage Orders</a></li>
+                <li><a href="/Reservations">Manage Reservations</a></li>
+            }
+            else
+            {
+                <li><a href="/Account/Login">Login</a></li>
+                <li><a href="/Account/Register">Register</a></li>
+            }
+        </ul>
+    </div>
+</body>
+</html>

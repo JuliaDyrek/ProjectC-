@@ -1,0 +1,50 @@
+﻿@model IEnumerable<ProjektRestauracja.Models.Reservation>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Restaurant Reservation System</title>
+    <link href="~/css/stylesReservations.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>Reservations:</h1>
+
+        <p>
+            <a asp-action="Create" class="btn">Create New</a>
+        </p>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.ReservationDate)</th>
+                    <th>Reservation Time</th>
+                    <th>@Html.DisplayNameFor(model => model.NumberOfPeople)</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.ReservationDate.ToString("yyyy-MM-dd")</td>
+                        <td>@item.ReservationTime.ToString("hh\\:mm")</td>
+                        <td>@Html.DisplayFor(modelItem => item.NumberOfPeople)</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-delete">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
